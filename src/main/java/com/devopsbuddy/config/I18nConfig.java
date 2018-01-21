@@ -8,7 +8,7 @@ import org.springframework.context.support.ReloadableResourceBundleMessageSource
  * Created by maykoone on 20/01/18.
  */
 @Configuration
-public class I18NConfig {
+public class I18nConfig {
 
     @Bean
     public ReloadableResourceBundleMessageSource messageSource() {
