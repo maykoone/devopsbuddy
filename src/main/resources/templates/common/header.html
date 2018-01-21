@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head th:fragment="common-header">
+      <title>Template for bootstrap</title>
+
+      <!-- Bootstrap -->
+      <link rel="stylesheet" th:href="@{/webjars/bootstrap/3.3.6/css/bootstrap.min.css}" media="screen"/>
+      <link rel="stylesheet" th:href="@{/webjars/font-awesome/4.4.0/css/font-awesome.min.css}" />
+
+      <link rel="stylesheet" th:href="@{/css/styles.css}" type="text/css" media="screen" />
+    </head>
+    <body>
+        <div th:fragment="before-body-script">
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script th:src="@{/webjars/jquery/2.1.4/jquery.min.js}"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script th:src="@{/webjars/bootstrap/3.3.6/js/bootstrap.min.js}"></script>
+        </div>
+    </body>
+</html>
