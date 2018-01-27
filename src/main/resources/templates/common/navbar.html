@@ -17,8 +17,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li class="active"><a th:text="#{navbar.home.text}" href="#">Home</a></li>
+            <li><a th:text="#{navbar.about.text}" href="/about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <form class="navbar-form navbar-left" role="search">
@@ -34,6 +34,6 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-    
+
 </body>
 </html>
